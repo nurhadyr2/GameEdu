@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4d78756d6df3348b1b2e10fac5d2e7, type: 3}
+  m_Name: Quiz_Jantung
+  m_EditorClassIdentifier: Assembly-CSharp::EduQuest.Data.QuizData
+  organName: Jantung
+  questions:
+  - questionText: Berapa jumlah ruang (bilik dan serambi) pada jantung manusia?
+    options:
+    - 2 ruang
+    - 3 ruang
+    - 4 ruang
+    - 5 ruang
+    correctIndex: 2
+    explanation: 'Jantung manusia memiliki 4 ruang: 2 serambi (atrium) dan 2 bilik
+      (ventrikel).'
+  - questionText: Pembuluh darah yang membawa darah keluar dari jantung disebut?
+    options:
+    - Vena
+    - Arteri
+    - Kapiler
+    - Aorta saja
+    correctIndex: 1
+    explanation: Arteri membawa darah keluar dari jantung, sedangkan vena membawa
+      darah kembali ke jantung.
+  - questionText: Bagian jantung yang memompa darah ke seluruh tubuh adalah?
+    options:
+    - Serambi kanan
+    - Serambi kiri
+    - Bilik kiri
+    - Bilik kanan
+    correctIndex: 2
+    explanation: Bilik kiri memompa darah kaya oksigen ke seluruh tubuh melalui aorta,
+      sehingga dindingnya paling tebal.

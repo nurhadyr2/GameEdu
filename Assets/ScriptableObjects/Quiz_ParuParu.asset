@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4d78756d6df3348b1b2e10fac5d2e7, type: 3}
+  m_Name: Quiz_ParuParu
+  m_EditorClassIdentifier: Assembly-CSharp::EduQuest.Data.QuizData
+  organName: Paru-paru
+  questions:
+  - questionText: Pertukaran oksigen dan karbon dioksida di paru-paru terjadi di?
+    options:
+    - Bronkus
+    - Trakea
+    - Alveolus
+    - Laring
+    correctIndex: 2
+    explanation: Alveolus adalah kantung udara kecil tempat terjadinya pertukaran
+      gas (difusi O2 dan CO2).
+  - questionText: Saluran udara utama yang menghubungkan tenggorokan dengan paru-paru
+      disebut?
+    options:
+    - Esofagus
+    - Trakea
+    - Faring
+    - Diafragma
+    correctIndex: 1
+    explanation: Trakea (batang tenggorok) adalah saluran utama yang mengalirkan
+      udara menuju bronkus dan paru-paru.
+  - questionText: Otot yang berperan penting dalam proses pernapasan adalah?
+    options:
+    - Otot jantung
+    - Otot bisep
+    - Diafragma
+    - Otot perut
+    correctIndex: 2
+    explanation: Diafragma adalah otot berbentuk kubah di bawah paru-paru yang mengatur
+      masuk-keluarnya udara saat bernapas.

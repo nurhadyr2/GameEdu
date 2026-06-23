@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4d78756d6df3348b1b2e10fac5d2e7, type: 3}
+  m_Name: Quiz_Otak
+  m_EditorClassIdentifier: Assembly-CSharp::EduQuest.Data.QuizData
+  organName: Otak
+  questions:
+  - questionText: Bagian otak yang mengatur keseimbangan dan koordinasi gerakan adalah?
+    options:
+    - Otak besar (cerebrum)
+    - Otak kecil (cerebellum)
+    - Batang otak
+    - Sumsum tulang belakang
+    correctIndex: 1
+    explanation: Otak kecil (cerebellum) mengatur keseimbangan, postur, dan koordinasi
+      gerakan tubuh.
+  - questionText: Pusat pengendali kemampuan berpikir, mengingat, dan berbicara terletak
+      di?
+    options:
+    - Otak kecil
+    - Batang otak
+    - Otak besar (cerebrum)
+    - Sumsum lanjutan
+    correctIndex: 2
+    explanation: Otak besar (cerebrum) adalah pusat berpikir, ingatan, kesadaran,
+      dan pengendalian gerakan sadar.
+  - questionText: Bagian otak yang mengatur fungsi vital seperti detak jantung dan
+      pernapasan adalah?
+    options:
+    - Batang otak
+    - Otak besar
+    - Otak kecil
+    - Talamus
+    correctIndex: 0
+    explanation: Batang otak (termasuk medula oblongata) mengatur fungsi otomatis
+      tubuh seperti detak jantung dan pernapasan.
