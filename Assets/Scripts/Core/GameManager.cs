@@ -78,6 +78,12 @@ namespace EduQuest.Core
             OnStatsChanged?.Invoke();
         }
 
+        public void LoseLife(int amount = 1)
+        {
+            Lives = Mathf.Max(0, Lives - Mathf.Abs(amount));
+            OnStatsChanged?.Invoke();
+        }
+
         /// <summary>Bonus +20 jika seluruh soal dalam satu level dijawab benar.</summary>
         public void AddPerfectBonus()
         {

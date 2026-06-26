@@ -61,6 +61,12 @@ namespace EduQuest.Gameplay
             }
         }
 
+        public void ForceGameOver()
+        {
+            if (levelEnded) return;
+            EndLevel(false);
+        }
+
         private void EndLevel(bool passed)
         {
             levelEnded = true;

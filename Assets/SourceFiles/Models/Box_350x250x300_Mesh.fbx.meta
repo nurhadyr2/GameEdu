@@ -97,9 +97,8 @@ ModelImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 196526
-  packageName: Starter Assets - ThirdPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.1.7
+  productId: 4696
+  packageName: Robot Kyle | URP
+  packageVersion: 4.0
   assetPath: Assets/SourceFiles/Models/Box_350x250x300_Mesh.fbx
-  uploadId: 879174
+  uploadId: 847474
